@@ -8,7 +8,6 @@
 
 - [中文](#中文)
 - [English](#English)
-- [SQL Logic](#Logic)
 - [Build Info](#Build-Info)
 - [Author](#Author)
 - [License](#License) 
@@ -42,6 +41,7 @@ Once you download the software you’ll need to mount it. Simply right-click and
  
 Step 2:
 Right-click ‘Setup’ and select ‘Run as Administrator’.
+
 步骤2:
 右键单击“Setup”，然后选择“Run as Administrator”。
 
@@ -49,6 +49,7 @@ Right-click ‘Setup’ and select ‘Run as Administrator’.
  
 Step 3:
 Select ‘Installation’, and choose ‘Upgrade from SQL Server 2005, SQL Server 2008, SQL Server 2008 R2, or SQL Server 2012’.
+
 步骤3:
 选择“Installation”，然后选择“Upgrade from SQL Server 2005, SQL Server 2008, SQL Server 2008 R2, or SQL Server 2012”。
 
@@ -56,6 +57,7 @@ Select ‘Installation’, and choose ‘Upgrade from SQL Server 2005, SQL Serve
  
 Step 4:
 Enter your product Key and click ‘Next’. In this example I’ve removed the Product Key for obvious reasons.
+
 步骤4:
 输入你的产品密钥，然后单击“Next”。在这个例子中，我已经删除了产品密钥，原因很明显。
 
@@ -63,6 +65,7 @@ Enter your product Key and click ‘Next’. In this example I’ve removed the 
  
 Step 5:
 Accept the ‘License Terms’ and click ‘Next’.
+
 步骤5:
 接受“License Terms”并单击“Next”。
 
@@ -70,6 +73,7 @@ Accept the ‘License Terms’ and click ‘Next’.
  
 Step 6:
 Click ‘Next’.
+
 步骤6:
 单击“Next”。
 
@@ -77,6 +81,7 @@ Click ‘Next’.
  
 Step 7:
 Click ‘Next’ at the ‘Install Setup Files’ screen.
+
 步骤7:
 单击“Install Setup Files”屏幕上的“Next”。
 
@@ -84,6 +89,7 @@ Click ‘Next’ at the ‘Install Setup Files’ screen.
  
 Step 8:
 Use the default selection (In case upgrading the current server using a single default instance), and click ‘Next’.
+
 步骤8:
 使用默认选择（如果使用单个默认实例升级当前服务器），然后单击“Next”。
 
@@ -94,6 +100,7 @@ Click ‘Next’. The feature selection will default to all the current features
 Note:
 They are preselected. ( This is normal for the upgrade process )
 They cannot be unselected or changed. Again… This is normal.
+
 步骤9:
 点击“Next”。功能选择项将默认为数据库服务器上存在的所有当前功能。
 注意：
@@ -104,6 +111,7 @@ They cannot be unselected or changed. Again… This is normal.
  
 Step 10:
 Click ‘Next’ at the instance configuration. We are using the defaults in this example tutorial.
+
 步骤10:
 单击实例配置中的“Next”.我们在本示例教程中使用默认值。
 
@@ -111,81 +119,99 @@ Click ‘Next’ at the instance configuration. We are using the defaults in thi
  
 Step 11:
 Click ‘Next’.
+
 步骤11:
 单击“Next”。
 
 ![#](images/11-How-To-Upgrade-SQL-2012-to-SQL-2014-With-AlwaysOn.png?raw=true "#")
  
 Step 12:
+
 步骤12:
 
 ![#](images/12-How-To-Upgrade-SQL-2012-to-SQL-2014-With-AlwaysOn.png?raw=true "#")
  
 Step 13:
+
 步骤13:
 
 ![#](images/13-How-To-Upgrade-SQL-2012-to-SQL-2014-With-AlwaysOn.png?raw=true "#")
  
 Step 14:
+
 步骤14:
 
 ![#](images/14-How-To-Upgrade-SQL-2012-to-SQL-2014-With-AlwaysOn.png?raw=true "#")
  
 Note the error boxes. If you get these they are easily corrected. Simply add a Reporting Services Database. If you don’t have this issue you won’t need to do the following step of creating one.
+
 请注意错误框。如果你看到这些错误框，它们是很容易纠正的。只需添加Reporting Services数据库即可，如果你没有此问题，则无需执行以下创建操作。
+
 Step 15:
+
 步骤15:
 
 ![#](images/15-How-To-Upgrade-SQL-2012-to-SQL-2014-With-AlwaysOn.png?raw=true "#")
  
 Step 16:
+
 步骤16:
 
 ![#](images/16-How-To-Upgrade-SQL-2012-to-SQL-2014-With-AlwaysOn.png?raw=true "#")
  
 Step 17:
+
 步骤17:
 
 ![#](images/17-How-To-Upgrade-SQL-2012-to-SQL-2014-With-AlwaysOn.png?raw=true "#")
  
 Step 18:
+
 步骤18:
 
 ![#](images/18-How-To-Upgrade-SQL-2012-to-SQL-2014-With-AlwaysOn.png?raw=true "#")
  
 Step 19:
+
 步骤19:
 
 ![#](images/19-How-To-Upgrade-SQL-2012-to-SQL-2014-With-AlwaysOn.png?raw=true "#")
  
 Step 20:
+
 步骤20:
 
 ![#](images/20-How-To-Upgrade-SQL-2012-to-SQL-2014-With-AlwaysOn.png?raw=true "#")
  
 User name has been removed of course.
 用户名已被删除。
+
 Step 21:
+
 步骤21:
 
 ![#](images/21-How-To-Upgrade-SQL-2012-to-SQL-2014-With-AlwaysOn.png?raw=true "#")
  
 Step 22:
+
 步骤22:
 
 ![#](images/22-How-To-Upgrade-SQL-2012-to-SQL-2014-With-AlwaysOn.png?raw=true "#")
  
 Step 23:
+
 步骤23:
 
 ![#](images/23-How-To-Upgrade-SQL-2012-to-SQL-2014-With-AlwaysOn.png?raw=true "#")
  
 Rerun the upgrade process and it should proceed to the next step where it will begin the installation. Be patient as this is the longest portion of the installation.
+
 重新运行升级过程，并且下一步会继续开始安装。请耐心等待，因为这是安装中最长的部分。
 
 ![#](images/24-How-To-Upgrade-SQL-2012-to-SQL-2014-With-AlwaysOn.png?raw=true "#")
  
 Note: While the above progress bar completely fills… It will appear as though it’s maxed out and hung. Just relax; it’s not totally 100% done. Progress bar for this particular upgrade may not be totally accurate. It’s behind a couple minutes in some cases. It’s normal; just wait a few, then you’ll see the following screen.
+
 注意：当上面的进度条显示完成，它看起来看起来好像是最大化，放轻松，它并非完全100％完成。此特定升级的进度条可能不完全准确，在某些情况下，它落后了几分钟，这是正常的，等一下，你会看到以下屏幕。
 
 ![#](images/25-How-To-Upgrade-SQL-2012-to-SQL-2014-With-AlwaysOn.png?raw=true "#")
@@ -196,6 +222,7 @@ Next just follow-through with the remaining prompts however; there are a couple 
 3. (To keep it simple) Remove the Databases from the AlwaysOn configuration. Yes; this means you’ll need to add them back after the upgrade.
 4. Failover the Availability Group, and other Cluster resources to the already upgraded Nodes before you do the last server.
 Fyi; If you don’t remove the databases from the AlwaysOn configuration, and decide to run the upgrade on the primary node anyway (even after failing over the Cluster, and Availability group) you might get some peculiar errors. You’ll see this whenever you’re looking at the Failover Cluster Manager, or the AlwaysOn High Availability Dashboard after the upgrade.
+
 接下来只是跟进剩下的提示，请记住几件事。
 1.在所有数据库中运行DBCC以确保它们处于良好的工作状态。
 2.运行所有数据库的备份。
@@ -206,6 +233,7 @@ Fyi; If you don’t remove the databases from the AlwaysOn configuration, and de
 ![#](images/26-How-To-Upgrade-SQL-2012-to-SQL-2014-With-AlwaysOn.png?raw=true "#")
  
 Just wanted to give you a heads-up on that one.
+
 只想给你一个关于此问题的提示。
 
 
