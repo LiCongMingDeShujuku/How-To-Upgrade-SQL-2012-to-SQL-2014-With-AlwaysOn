@@ -224,10 +224,10 @@ Next just follow-through with the remaining prompts however; there are a couple 
 Fyi; If you don’t remove the databases from the AlwaysOn configuration, and decide to run the upgrade on the primary node anyway (even after failing over the Cluster, and Availability group) you might get some peculiar errors. You’ll see this whenever you’re looking at the Failover Cluster Manager, or the AlwaysOn High Availability Dashboard after the upgrade.
 
 接下来只是跟进剩下的提示，请记住几件事。
-1.在所有数据库中运行DBCC以确保它们处于良好的工作状态。
-2.运行所有数据库的备份。
-3.（简单地）从AlwaysOn配置中删除数据库。没错，这意味着你需要在升级后添加它们。
-4.在执行最后一个服务器之前，将Availability Group和其他Cluster资源故障转移到已升级的节点。
+1. 在所有数据库中运行DBCC以确保它们处于良好的工作状态。
+2. 运行所有数据库的备份。
+3. （简单地）从AlwaysOn配置中删除数据库。没错，这意味着你需要在升级后添加它们。
+4. 在执行最后一个服务器之前，将Availability Group和其他Cluster资源故障转移到已升级的节点。
 据说：如果不从AlwaysOn配置中删除数据库，并在主节点上运行升级（即使在故障转移Cluster和Availability group），你可能会遇到一些特殊错误。每当在升级后查看Failover Cluster Manager或AlwaysOn High Availability Dashboard时，你都会看到此信息。
 
 ![#](images/26-How-To-Upgrade-SQL-2012-to-SQL-2014-With-AlwaysOn.png?raw=true "#")
